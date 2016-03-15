@@ -71,7 +71,7 @@
                     var json = localStorage[APP_UUID];
                     console.log('Loading config: ' + json);
                     var config = JSON.parse(json);
-                    $('#authorization-code').val('' + config.eveAuthorizationCode);
+                    $('#authorization-code').val('' + config.AuthorizationCode);
                 } else {
                     console.log('Creating default config');
                     $('#authorization-code').val('');
